@@ -1,0 +1,106 @@
+*{
+
+    margin: 0;
+
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+.background{
+background-image: url("img/3D-Nature-Images-Free-Download.jpg");
+height: 1000px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+
+text-align: center;
+}
+
+
+.div_from{
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.07);
+    width: 600px;
+    height: 700px;
+    padding-top: 30px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    color: rgb(14, 12, 12);
+    font-size: 1.3rem;
+   
+        
+}
+
+.div_from h1{
+
+    color: greenyellow;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form input{
+width: 300px;
+height: 40px;
+border-radius: 7px;
+padding: 10px;
+color: black;
+
+
+}
+form button{
+width: 300px;
+height: 40px;
+border-radius: 7px;
+padding: 10px;
+color: black;
+
+background-color: palegreen;
+font-size: 1.2rem;
+
+
+
+}
+form input:hover{
+background: rgb(169, 253, 169);
+
+}
+form button:hover{
+background: rgb(140, 231, 3);
+
+}
+
+
+img{
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+}
+
+.social{
+font-size: 1.4rem;
+margin-top: 10;
+color: white;
+box-shadow: 0 4px 8px 0 rgba(5, 53, 59, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.go:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.fb:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
